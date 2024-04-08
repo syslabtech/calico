@@ -4567,7 +4567,7 @@ spec:
               value: "k8s,bgp"
             # Autodetect method
             - name: IP_AUTODETECTION_METHOD
-              value: "can-reach=192.168.56.1"
+              value: "can-reach=10.0.2.2"
             # Auto-detect the BGP IP address.
             - name: IP
               value: "autodetect"
